@@ -1,0 +1,477 @@
+body {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 5% 20%;
+    transition-property: backround-color;
+    transition-duration: 3s;
+}
+
+.body {
+    background-image: radial-gradient(white,blue);
+    scale: 1.1;
+}
+
+.Showcase {
+background-color: whitesmoke;
+margin: -50px;
+padding: 20px 20px;
+margin-bottom: 7px;
+}
+
+.button1 {
+    animation-name: color;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 30ms;
+    animation-iteration-count: infinite;
+    
+}
+
+.button2 {
+float: right;
+margin-right: 20%;
+margin-top: -33%;
+scale: 2.5;
+background-color: blue;
+}
+
+.button2 {
+    animation-name: color1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color1 {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(0);
+        background-color: red;
+    }
+}
+
+
+@keyframes color {
+    0% {
+        transform: translateX(0)
+    }
+
+25% {
+    transform: translateX(0);
+    background-color: rgb(193, 13, 103);
+}
+
+50% {
+    transform: translateX(0);
+    background-color: limegreen;
+    scale: 1.2;
+}
+
+75% {
+    transform: translateX(0);
+    background-color: darkorchid;
+}
+
+
+100% {
+    transform: translateX(0);
+    background-color: red;
+}
+}
+
+
+.Amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: wrap;
+
+}
+
+.set {
+    padding-bottom: 20px;
+}
+
+
+
+.content {
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    margin: -50px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+/* .padding { */
+    /* padding: 0px 10px 0px 10px; */
+/* } */
+.product {
+    padding: 10px px;
+    margin: 20px 20px;
+    background-color: white;
+    border-bottom: 5px solid  rgb(150, 154, 150);
+    border-radius: 20px;
+    
+  
+
+    
+}
+
+.picture img {
+   margin: -19px;
+   margin-right: -40px;
+   margin-left: -40px;
+   width: 15vw;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.products {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+.product:hover {
+/* border-color: blue; */
+scale: 1.1;
+border-bottom: 3px solid rgba(0, 0, 255, 0.687);
+border-right:  3px solid rgba(0, 0, 255, 0.687);
+border-left: 3px solid rgba(0, 0, 255, 0.687);;
+border-top: 5px solid rgba(0, 0, 255, 0.687);
+
+
+}
+
+
+h3 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+h6 {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.foot {
+    padding: 15px 15px;
+    background-color: rgb(199, 200, 201);
+    margin: -50px;
+    margin-top: -20px;
+    /* text-align: center; */
+    justify-content: space-between;
+    }
+ h6 p {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    
+ }
+
+   .button1 {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 10px;
+    padding-left: 10%;
+    border-radius: 6px;
+    border: none;
+    font-size: 70%;
+ }
+
+ .padding {
+    display: flex;
+    justify-content: space-around;
+     }
+
+ .button1:hover {
+    scale: 1.2;
+    font-size: 80%;
+     }
+      .submit {
+        background-color: greenyellow;
+        display: flex;
+      /* padding: 20px; */
+    margin-top: -25%;
+    margin-left: 40%;
+    margin-right: -35%;
+    padding-left: -500px;
+    padding-right: 49px;
+    font-size: 1rem;
+      scale: 1;
+
+        
+
+      }
+
+     p {
+        align-items: center;
+     }
+
+     .purchase1 {
+        font-size: 1.3rem;
+        align-items: center;
+        background-image: linear-gradient(blue,white,blue,white,blue);
+        padding: 20px;
+        border-radius: 60px;
+     margin-top: 5%; 
+        padding-bottom: 10%;
+    
+        
+      
+     }
+
+     .body2 {
+        background-image: url(images.jpg);
+        animation-name: sparkle;
+        animation-duration: 15s;
+        animation-timing-function: ease-out;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+
+     }
+
+     @keyframes sparkle {
+        0% {
+            transform: translate(0);
+            background-image: url(gettyimages-1371695404-2048x2048.jpg);
+        }
+
+        0% {
+            transform: translate(0);
+            background-image: url(atv-quad-bike-allterrain-vehicle-260nw-1422048302.webp);
+     }
+
+    0% {
+        transform: translate(0);
+        background-image: url(bestlaptops-2048px-9765.webp);
+    }  
+}
+
+.body3 {
+    background-image: url(closeup-of-runners-shoe-mid-stride-isolated-on-a-gradient-background-photo.jpg);
+}
+
+     .content2 {
+        background-color: white;
+        padding: 10px;
+        padding-bottom: -20%;
+        padding-left: 15%;
+        padding-top: 15%;
+        border-radius: 40px;
+        border-left: 3px solid  rgb(90, 89, 89);
+        border-bottom: 4px solid  rgb(90, 89, 89);
+        border-right: 3px solid  rgb(90, 89, 89);;
+        border-top: 4px solid rgb(90, 89, 89);
+        margin: 20px;
+        
+       
+     }
+
+     input {
+        padding-right: 25%;
+        padding-bottom: 7.5px;
+        padding-top: 7.5px;
+        width: 50%;
+     }
+     
+     .intro {
+        scale: 1;
+        text-align: center;
+        color: white;
+        border-top-right-radius: 60px;
+        border-top-left-radius: 60px;
+         }
+     
+         a {
+            color: white;
+            text-decoration: none;
+         }
+
+         .successful {
+            font-size: 1.8rem;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient(white,rgb(4, 159, 159),rgb(4, 159, 159),white);
+             padding-left: 7%;
+            scale: 1.9;
+            /* margin-left: 10%; */
+            /* border-radius: 60px; */
+            color: white;
+            display: flex;
+             padding: 10%; 
+            padding-top: 3%; 
+            margin-top: 11.5%;
+           
+         }
+
+         
+         
+
+         .feedback {
+        margin-bottom: 50%;
+            margin-top: -20px;
+           
+         }
+     
+
+
+ /* iPads (portrait and landscape) ----------- */
+@media  screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1223px) {
+    .picture img{
+        width: 100%;
+    }
+    .picture{
+        width: 100%;
+    }
+ 
+    .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+        .product {
+            width: 40%;
+
+        }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media  screen 
+and (min-device-width : 56px) 
+and (max-device-width : 769px) {
+    h6 p {
+        padding: 0%;
+    }
+.picture img{
+    width: 100%;
+}
+.picture{
+
+    width: 100%;
+}
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .product {
+        width: 80%;
+    }
+
+.body2 {
+    display: flex;
+    flex-direction: wrap;
+  justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+ 
+
+
+.textarea {
+    padding-right: -20%;
+}
+
+.content2 {
+
+}
+
+     .content2 {
+      
+        
+       
+     }
+
+     input {
+        padding-right: 25%;
+
+     }
+     
+     .intro {
+        padding-top: -50%;
+        color: white;
+       
+        } 
+ 
+        .button2 {
+           margin-left: 20;
+           margin-top: -35%;
+        }
+
+        .body3 {
+         display: flex;
+         
+        };
+        
+
+        .button4 {
+            margin-top: 100%;
+            margin-right: auto;
+            padding-right: 20%;
+            /* margin-bottom: 50%; */
+            /* padding-top: 20%; */
+            display: flex;
+        }
+
+        .item {
+            
+        }
+
+
+        .purchase1 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            /* padding-left: 25%; */
+        }
+            
+            .successful {
+            font-size: 1.8rem;
+        display: flex;
+        flex-direction: wrap;
+            } 
+            
+        
+
+        a {
+            color: white;
+            text-decoration: none;
+         }
+
+             
+        
+         
+         
+         .button3 {
+         scale: 2;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        margin-bottom: 3rem;
+        margin-top: 7rem;
+         } 
+
+         /* submit.css */
+        }
+
+
+/* Destops or Large screens */
+@media screen and (min-width: 1224px) {
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Details</title>
+    <link rel="html" href="purchased.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body2">
+    <form class="purchase" action="/purchased.html">
+       
+        <div class="purchase1">
+             <h1 class="intro">Thanks For Buying our Goods Enter Your Bank Details Below</h1><br><br><br>
+            <div class="content2">
+                <h2>Personal Information</h3>
+        <label for="name"><b> Your Name</b></label><br>
+        <input id="name" name="Name" type="text" placeholder="Eriq Lay" required><br><br>
+        <label for="number"> <b>Mobile Number</b></b></label><br>
+        <input id="number" type="number" value="+234" name="mobile number" placeholder="+234"><br><br>
+        <label for="address"><b> Your Address</b></label><br>
+        <input id="address" type="text" name="Home Address" placeholder="24 park Road"><br><br>
+        <label for="email "><b>Email Address</b></label><br>
+        <input type="email" id="email" name="email"placeholder="@example.com" required>
+
+        <h2>Payment Details</h2>
+        <label for="bank name"><b>Your Bank Name</b></label><br>
+        <input  type="text" id="bank name" list="banks" name="bank name">
+        <datalist id="banks">
+            <option value="First Bank"></option>
+            <option value="Access Bank"></option>
+            <option value="Polaris"></option>
+            <option value="UBA"></option>
+            <option value="Zenith"></option>
+            <option value="Union Bank"></option>
+            <option value="FCMB"></option>
+        
+        </datalist>
+        <br><br>
+        <label for="card number"><b>Card Number</b></label><br>
+        <input id="card number" type="number" list="numbers" minlength="5" maxlength="11"  required>
+        <datalist id="numbers">
+            <option value="0863454217">0863454217</option>
+            <option value="4682065793">4682065793</option>
+            <option value="6784775674">6784775674</option>
+            </datalist> <br><br>
+            <label for="pin"><b>Pin</b></label><br>
+        <input id="pin" type="number" minlength="1" maxlength="6" required><br><br>
+    
+        <h2>Delivery Address</h2>
+        <label for="home address">Home Address</label><br>
+        <input type="text" name="home address" id="home address" required><br><br><br>
+        <label for="time">Time</label><br>
+             <input type="time" value="time" id="time" name="time"><br><br>
+             <label for="items">Number Of Item:</label>
+             <input id="items" type="number" list="items" name="items" required>
+
+             <datalist id="items">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+             </datalist><br><br>
+             <div class="Amount">
+                <p>Delivery Location</p>
+             <label for="item">Home</label>
+             <input class="set" value="item" name="item" id="item"  list="items" type="radio" required>
+             <label for="item">Work</label>
+             <input  class="set" value="item" name="item" id="item"  list="items" type="radio" required>
+           </div><br><br>
+           <label for="date">Date</label><br>
+             <input type="date" id="Date" required>
+        <br><br><br>
+
+        <p><b>Feedback</b></p>
+         <textarea class="feedback" id="feedback" rows="4" cols="40"></textarea><br<<br><br>
+         <label for="submit"></label>
+         <button formmethod="get" class="button2" class="submit" type="submit" id="submit" value="Submit"><a href="purchased.html">Submit</a></button>
+        
+
+</div>
+</div>
+         
+        
+        </form>
+</body>
+</html>
+ 

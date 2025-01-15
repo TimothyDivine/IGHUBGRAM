@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reproduction</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>REPRODUCTION</h1>
+        <ul>
+            <a href="#what is reproduction"><li>What Is Reproduction</li></a>
+            <a href="#what is sexual reproduction"><li>What Is Sexual Reproduction</li></a>
+            <a href="#what is asexual reproduction"><li>What Is Asexual Reproduction</li></a>
+            <a href="#binary fussion"><li>Binary fussion</li></a>
+            <a href="#conjugation"><li>Conjugation</li></a>
+    
+        </ul>
+        <div id="what is reproduction" class="content">
+ <h3>What Is Reproduction?</h3></div>
+Reproduction can be defined as the ability and capability of living things to give birth to there young ones or to reproduce to there look alikes.<br>
+<a href="https://en.wikipedia.org/wiki/Reproduction#:~:text=Reproduction%20or%20procreation,two%20parental%20organisms.">Learn More On Reproduction.</a><br>
+<br>Reproduction can be divided into two parts:<br>
+<strong>sexual</strong> And <strong>Asexual</strong> Reproduction <br>
+</div>
+<div id="what is sexual reproduction">
+    <h3>What Is Sexual Reproduction</h3>
+Sexual Reproduction can be defined as when both
+ parents comes together in other to produce a younger
+  one i.e <em class="text"> The fussion of the male and female gamet to produce a zygote or  (zygospore in plants).</em><br>
+
+
+<div id="what is asexual reproduction" class="content">
+<h3>    What Is Asexual Reproduction?</h3>
+</div>
+<p>Asexual Reproduction can be defined as a type of reproduction that involes only one parent
+i.e <em>
+    it produce it young one singly without any other parent .</em><br></p>
+        <h3>Types Of Asexual Reproduction<br></h3>
+    </h3>
+    There are different types of Asexual Reproduction the are :<br>
+    <ul>
+        <li>Binary fussion</li>
+        <li>Conjugation</li>
+        <li>Grafting</li>
+        <li>Budding</li>
+        <li>Marcoting <strong>etc</strong></li>
+    </ul>
+    <a href="https://en.wikipedia.org/wiki/Asexual_reproduction#:~:text=with%20budding.-,Vegetative%20propagation%5Bedit%5D,Sex,-References%5Bedit" target="_blank">Learn More</a>
+    <!-- you can add you own opinon--><br><br><br>
+    </div>
+     
+       <div id="binary fussion">
+    BINARY FUSSION<br>
+    </h3>
+Binary Fussion simply means when a single parent e.g Amoeba ,wants to reproduce it will start to have an out growth 
+on the body which gradually deviates from the body forming a new organism.<br><br>
+Study The Diagram Below:<br><br><br><br>
+<img src="https://cdn1.byjus.com/wp-content/uploads/2019/06/binary-fission-in-amoeba.png" alt="diagram of binary fussion in amoeba" />
+</h2> 
+</em>This image showed the processes of thr Amoeba binary fission<br><br><br><br>
+This Video Below Shows The Reproduction Process In Amoeba:<br><br><br><br>
+<video src="https://www.youtube.com/watch?v=IseYUKR_p-8" width="320" height="240" controls>video not supported</video>
+<br><br><br> 
+    </div>
+    <div id="conjugation">
+   <p><h3>Conjugation </h3>
+This can be defined as the process by which two parent of a single cell organism lies together each on there side and slowly develops an out
+growth which later joins with the other parent outgrowth. This tube serves as a host in other to transfer gamet for a parent to the other to form a zygospore   ,e.g spirogyra.<br><br>The Diagram below Shows conjugation in spirogyra<br><br><br><br>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNnmiqs1denFu8ckoHOO7-fVpQRsR8Gim6axA9xK1qfksHac3tTB__cbxXP8mimnUssjMmnpccNrq2rUrzqAAQyJvVPXYydMIDpnmqXqEAw6KECzmAvpVAjXKKLRuM6_amNVPHHUR5Bf4O/s1600/Untitled+1.jpg" /><br></p>
+</div>
+    The video below also proves it:<br><br><br><br>
+<video src="https://youtu.be/dlb_RDk4zks">
+</div>
+</body>
+</html

@@ -1,0 +1,33 @@
+
+
+.sub-container {
+    background-color: rgb(220, 223, 227);
+    text-align: center;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50vw;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: -5px;
+    /* font-size: 2rem;; */
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    /* font-size: 2rem; */
+    width: 50vw;
+    background-color: white;
+}
+
+
+
+
+
+.sub-container p {
+    color: grey
+}
+

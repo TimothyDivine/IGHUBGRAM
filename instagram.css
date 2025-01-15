@@ -1,0 +1,473 @@
+/* MAIN BODY */
+#home {
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    .maincontent {
+        padding: 20px;
+    }
+    
+.instagram {
+    display: grid;
+    justify-content: center;
+    font-size: 4rem;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: -67px;
+}
+
+      /* CREATE ACCOUNT */
+.create1 {
+    margin-top: 3%;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgb(53, 52, 52);
+    display: grid;
+    justify-content: center;  
+    font-size: 100%;
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    color: white;
+    border: 5px solid white;
+}
+
+.a4 {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    background-image: radial-gradient(blue,yellow,blue,yellow, blue);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 7%;
+    padding-top: 5%;border: 5px solid white;
+    
+}
+
+.createcolor {
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.button1 {
+    padding: 10px;
+    margin-left: 160px;
+    background-color: rgb(18, 176, 238);
+}
+
+.a1 {
+    text-decoration: none;
+    color: rgb(18, 176, 238);
+}
+
+  /* LOGIN DETAILS*/
+.login1 {
+    margin-top: -2%;
+    padding-bottom: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    display: grid;
+    justify-content: center;  
+    font-size: 1.5rem;
+    padding-top: 35px;
+    border: 5px solid white;
+}
+
+.details {
+    background-image: linear-gradient(blue,yellow,blue);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 2%;
+    margin-top: -2%;
+}
+
+.input1 {
+    font-size: 1.5rem;
+}
+
+/* INSTAGRAM PAGE */
+body {
+    background-color: whitesmoke;
+    margin-right: -25.10px;
+    margin-left: -15.10px;
+}
+
+.nav-bar {
+    padding: -50px;
+    background-color: black;
+
+}
+
+.nav-links {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-top: -10%;
+
+}
+.a2:hover {
+    background-color: orange;
+    scale: 1.2;
+}
+
+.a2 {
+    text-decoration: None;
+    color: white;
+    background-color:  limegreen;
+    font-size: 2rem;
+    padding: 5px;
+    border: solid 3px green;
+    margin-left: 15px;
+    }
+
+     .img1 {
+    scale: 0.60;
+    margin-top: -1%;
+     }
+
+    .img2 {
+     scale: 4;
+     margin-right: auto;
+     margin-left: auto;
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     margin-top: 12%;
+     width: 20vw;
+    
+    }
+
+    .hcolor {
+        color: limegreen;
+         margin-left: -90%;
+         margin-right: 20%;
+         margin-bottom: 50%;
+        font-size: 0.95rem;
+    }
+
+    .img3 {
+        background-image: url(stock-photo-handsome-businessman-using-his-tablet-in-the-office-2280610763.jpg);
+    }
+
+
+
+
+/* IGHUB INNOVATION */
+    .a3{
+     text-decoration: none;
+     font-size: 1.5rem;
+    }
+
+
+
+    /* PROFILE */
+    .bodyp {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .imgp {
+        width: 20vw;
+        border-radius: 50px;
+        margin-left: -30px;
+    }
+
+    .info {
+        margin-left: 35px;
+        padding-right: -20px;
+
+
+    }
+
+    
+    .info2 {
+        margin-left: 25px;
+        margin-right: 20px
+
+    }
+
+.name {
+    padding-left: 10%;
+}
+
+    .info1 {
+    }
+
+    .profiles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 5px solid black;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+        background-color: rgb(237, 245, 253);
+        padding-left: 25px;
+        padding-top: 20px;
+        margin-right: -13px;
+        margin-left: -13px;
+        
+    }
+
+    .profile2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+        background-color: rgb(238, 245, 251);
+        padding-left: 25px;
+        margin-top: -5px;
+        margin-right: -13px;
+        margin-left: -13px;
+        
+    }
+
+    
+    .profile3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+        background-color: rgb(238, 245, 251);
+        padding-left: 25px;
+        margin-top: -5px;
+        margin-right: -13px;
+        margin-left: -13px;
+        
+    }
+
+    .sir {
+        padding-left: 40px;
+        font-size: 2rem;
+        margin-top: -25px;
+    }
+
+    .sir1 {
+        font-size: 2rem;
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+
+
+    .profile1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    }
+
+    .info3 {  background-color: black;
+        margin-left: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+       scale: 0.63;
+        margin-top: -30px;
+        color: white;
+        animation-name: spin1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+   
+    @keyframes spin1 {
+
+        0% {
+            transform: translateX(0) rotate(180deg);
+            background-color: lime; 
+            scale: 0.80;
+            border: 5px solid purple;
+        }
+
+        
+        50% {
+            transform: translateX(-420px) rotate(360deg);
+            background-color: red;
+            border: 10px solid blue;
+            
+        }
+        
+        100% {
+            transform: translateX(0) rotate(720deg);
+            background-color: blue;
+            border: 5px solid red;
+            
+        }
+    }
+
+    .info4 {
+        margin-right: 23%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+       scale: 0.63;
+        margin-top: -30px;
+        color: white;
+        animation-name: spin;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes spin {
+
+        0% {
+            transform: translateX(0) rotate(-180deg);
+            background-color: lime; 
+            scale: 0.80;
+            border: 5px solid purple;
+        }
+
+        
+        50% {
+            transform: translateX(420px) rotate(-360deg);
+            background-color: red;
+            border: 10px solid blue;
+            
+        }
+        
+        100% {
+            transform: translateX(0) rotate(-720deg);
+            background-color: blue;
+            border: 5px solid red;
+            
+        }
+    }
+
+
+    .imgpr {
+        width: 15vw;
+        border-radius: 50px;
+        margin-left: -30px;
+    }
+
+
+    /* FOOTER */
+.foot {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: -20px;
+    margin-top: -1%;
+    margin-right: -1.5%;
+    margin-left: -1.5%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+ /* Burger Menu for Mobile */
+ .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    
+  }
+  
+  .burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    padding-left: -20px;
+    scale: 1.7;
+    
+  }
+
+/* SCREEN SIZES */
+
+/* Smartphones (portrait and landscape) ----------- */
+/* Responsive Design */
+@media  screen 
+and (max-device-width : 768px) {
+
+
+    #home {
+        margin-left: -15%;
+        /* margin: 0; */
+    }
+
+    .maincontent {
+        scale: 0.90;
+        padding-left: 13%;
+        padding-right: -10%;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+        background-color: rgb(52, 51, 51);
+        width: 200px;
+        scale: 0.50;
+        margin-left: -20px;
+        align-items: center;
+        gap: 1.2rem;     
+
+      }
+      
+    
+      .nav-links.active {
+        display: flex;
+      }
+    
+      .burger {
+        display: flex;
+        margin-left: 85%;
+        margin-top: -23%;
+        margin-bottom: 13%;
+        padding-bottom: 15px;
+    }
+
+    .hcolor {
+        scale: 0.50;
+        justify-content: space-around;
+        margin: 20px 20px;
+        margin-left: -3px;
+        padding-bottom: 25px;
+        display: flex;
+    }
+
+    .img1 {
+        margin-left: 1%;
+        margin-top: -8.5%;
+        scale: 0.40;
+        margin-bottom: -5%;
+        display: flex;
+
+    }
+
+    .foot {
+        display: flex;
+        font-size: 10px;
+        margin-right: -10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        justify-content: space-between;
+        gap: 10%;
+    }
+      }
+
+/* Ipad screens */
+@media  screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1223px){
+ 
+}
