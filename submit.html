@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body2">
-    <form class="purchase" action="/purchased.html">
+    <form class="purchase">
        
         <div class="purchase1">
              <h1 class="intro">Thanks For Buying our Goods Enter Your Bank Details Below</h1><br><br><br>
@@ -37,8 +37,8 @@
         
         </datalist>
         <br><br>
-        <label for="card number"><b>Card Number</b></label><br>
-        <input id="card number" type="number" list="numbers" minlength="5" maxlength="11"  required>
+        <label for="cardNumber"><b>Card Number</b></label><br>
+        <input id="cardNumber" type="number" list="numbers" minlength="5" maxlength="11"  required>
         <datalist id="numbers">
             <option value="0863454217">0863454217</option>
             <option value="4682065793">4682065793</option>
@@ -48,8 +48,8 @@
         <input id="pin" type="number" minlength="1" maxlength="6" required><br><br>
     
         <h2>Delivery Address</h2>
-        <label for="home address">Home Address</label><br>
-        <input type="text" name="home address" id="home address" required><br><br><br>
+        <label for="homeAddress">Home Address</label><br>
+        <input type="text" name="home address" id="homeAddress" required><br><br><br>
         <label for="time">Time</label><br>
              <input type="time" value="time" id="time" name="time"><br><br>
              <label for="items">Number Of Item:</label>
@@ -77,8 +77,9 @@
         <p><b>Feedback</b></p>
          <textarea class="feedback" id="feedback" rows="4" cols="40"></textarea><br<<br><br>
          <label for="submit"></label>
-         <button formmethod="get" class="button2" class="submit" type="submit" id="submit" value="Submit"><a href="purchased.html">Submit</a></button>
+         <button formmethod="get" class="button2" class="submit" id="submit" value="Submit">Submit</button>
         
+         <script src="script.js"></script>
 
 </div>
 </div>
